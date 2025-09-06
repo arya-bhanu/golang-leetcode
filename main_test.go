@@ -7,6 +7,5 @@ import (
 )
 
 func TestMainFunc(t *testing.T) {
-	funcResult := SolveProblem()
-	assert.Equal(t, "Hello World", funcResult)
+	assert.Equal(t, "Hello World", SolveProblem())
 }
