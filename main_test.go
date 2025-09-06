@@ -7,6 +7,6 @@ import (
 )
 
 func TestMainFunc(t *testing.T) {
-	funcResult := SolveProblem()
-	assert.Equal(t, "Hello World", funcResult)
+	assert.Equal(t, 6, maxFreqSum("successes"))
+	assert.Equal(t, 3, maxFreqSum("aeiaeia"))
 }
