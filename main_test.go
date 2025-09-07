@@ -7,5 +7,6 @@ import (
 )
 
 func TestMainFunc(t *testing.T) {
-	assert.Equal(t, "Hello World", SolveProblem())
+	assert.Equal(t, 2, findPermutationDifference("abc", "bac"))
+	assert.Equal(t, 12, findPermutationDifference("abcde", "edbac"))
 }
