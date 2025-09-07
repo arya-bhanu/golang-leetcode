@@ -7,5 +7,6 @@ import (
 )
 
 func TestMainFunc(t *testing.T) {
-	assert.Equal(t, "Hello World", SolveProblem())
+	assert.Equal(t, 3, numJewelsInStones("aA", "aAAbbbb"))
+	assert.Equal(t, 0, numJewelsInStones("z", "ZZ"))
 }
